@@ -10,7 +10,7 @@ Original file is located at
 import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
-file_path = "https://raw.githubusercontent.com/ProfHan/ITEC4700/refs/heads/main/SAT_GPA.csv"
+file_path = "https://raw.githubusercontent.com/Grimound/AI/refs/heads/main/SATandGPA.csv"
 df = pd.read_csv(file_path)
 GPA = df["GPA"]
 SAT_Score = df["SAT Score"]
